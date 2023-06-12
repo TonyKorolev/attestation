@@ -15,7 +15,7 @@ xpath:
 
     contact_us_btn: //*[@id="contact"]/div[4]/button
 
-    about_btn: //a[@href="/about"][@class="svelte-1rc85o5"]
+    about_btn: //a[@href="/about"]
 
     about_page_title: //h1[@class="svelte-z9xc0"]
 

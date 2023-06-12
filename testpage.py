@@ -110,7 +110,7 @@ class Operations(BasePage, TestLocators):
             logging.error('Contact us button is not found')
 
     def click_about_button(self):
-        logging.info('Click About button ')
+        logging.info('Click About button')
         about_btn = self.find_element(self.locs['about_btn'])
         if about_btn:
             about_btn.click()
@@ -156,9 +156,13 @@ class Operations(BasePage, TestLocators):
             text = None
         return text
 
-    def get_about_page_title_font_size(self):
+    def check_about_page_title_font_size(self, right_font_size):
         title = self.find_element(self.locs['about_page_title'])
         font_size = title.value_of_css_property('font-size')
-        logging.info(f'About Page title has {font_size}th font size')
-        return font_size
+        if font_size == right_font_size:
+            logging.info(f'About Page title has {font_size} font size')
+            return True
+        else:
+            logging.error(f'About Page title font size is not equal to {right_font_size}')
+            return False
 

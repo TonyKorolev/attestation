@@ -12,7 +12,7 @@ browser = testdata["browser"]
 name = testdata['username']
 
 
-@pytest.fixture(scope='function')
+@pytest.fixture(scope='module')
 def browser():
     if browser == "firefox":
         service = Service(executable_path=GeckoDriverManager().install())
@@ -64,3 +64,9 @@ def font_size():
 @pytest.fixture()
 def username():
     return name
+
+
+@pytest.fixture()
+def site():
+    site = 'https://test-stand.gb.ru/'
+    return site

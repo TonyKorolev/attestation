@@ -1,0 +1,12 @@
+2023-06-&d 00:27:1686605246 INFO ====== WebDriver manager ======
+2023-06-&d 00:27:1686605246 INFO Driver [/home/user/.wdm/drivers/chromedriver/linux64/114.0.5735.90/chromedriver] found in cache
+2023-06-&d 00:27:1686605249 INFO Enter login 
+2023-06-&d 00:27:1686605249 INFO Enter password 
+2023-06-&d 00:27:1686605249 INFO Click login button 
+2023-06-&d 00:27:1686605252 INFO Hello, Steve_Rogers
+2023-06-&d 00:27:1686605252 INFO Click About button
+2023-06-&d 00:27:1686605255 INFO About Page is loaded, title is visible
+2023-06-&d 00:27:1686605256 INFO About Page title has 32px font size
+2023-06-&d 00:28:1686605288 INFO Get username
+2023-06-&d 00:28:1686605288 INFO Get user token and id
+2023-06-&d 00:28:1686605289 INFO Get user token and id
